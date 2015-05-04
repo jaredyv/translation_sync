@@ -17,7 +17,7 @@ class Zendesk{
 		$str = "# smartling.source_key_paths=" . ($this->_body_key + 1) . "," . ($this->_title_key + 1) . "\n";
 		$str .= "# smartling.paths=" . ($this->_body_val + 1) . "," . ($this->_title_val + 1) . "\n";		
 		$str .= "# smartling.string_format_paths=html:" . ($this->_body_val + 1) . ",html:" . ($this->_title_val + 1) . "\n";
-		$str .= "# smartling.output_not_translated_row = false";
+		$str .= "# smartling.output_not_translated_row = false \n";
 		return $str;
 	}
 
